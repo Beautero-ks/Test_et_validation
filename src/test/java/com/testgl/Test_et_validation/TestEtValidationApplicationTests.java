@@ -2,8 +2,10 @@ package com.testgl.Test_et_validation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
+//@TestPropertySource(locations = "classpath:application-test.properties")
 class TestEtValidationApplicationTests {
 
 	@Test
